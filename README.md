@@ -62,3 +62,14 @@ List all the APIs it's methods, request and response params
 
 > Add How to setup and run your app
 > This is what you will use to deploy your app, so create a seperate requirements.txt file here
+
+1. Clone the repo.
+2. Install virtualenv using the following command, if you do not have it installed already ```pip install virtualenv```
+3. Create a new virtual environment using the command ```virtualenv <your_env_name>```
+4. Now run ```<you_env_name>\Scripts\activate``` to activate your virtual environment (in case of windows) or ```source <your_env_name>/bin/activate``` (in case of Mac/Linux)
+5. Once activated, navigate to the location where you cloned the repo. Now run the following commands one by one (Make sure that your virtualenv is active).
+   ```
+      cd developer-cheatsheet
+      pip install -r requirements.txt
+   ```
+6. Once done, run the command ```python run.py```. The application should be running on port 5000 and on hitting "http://localhost:5000/" should give a "success" response.
