@@ -1,5 +1,5 @@
 repos:
--   repo: https://github.com/Yelp/detect-secrets
+-   repo: https://github.com/Praveen-0208/developer-cheatsheet
     rev: v1.2.0
     hooks:
     -   id: detect-secrets
